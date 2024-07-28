@@ -1,0 +1,38 @@
+.wpo-site-footer .about-widget p {
+  margin-bottom: 0.1em;
+  line-height: 1.5em;
+}
+.wpo-site-footer .widget-title {
+  margin-bottom: 20px;
+}
+
+@media (max-width: 768px) {
+  .responsive-text {
+    margin: 0 15px;
+  }
+}
+.tp-footer__widget p {
+  color:#c9c9c6 !important;
+}
+
+/* Add this CSS to your stylesheets or style tag */
+.custom-captcha {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+@media (min-width: 991px) and (max-width: 1400px) {
+  .certificateImg {
+      display: flex !important;
+      justify-content: center !important;
+  max-height: 40px !important;
+      align-items: center !important;
+    
+  }
+}
+@media screen and (max-width: 600px) {
+  .custom-captcha {
+    max-width: 150px;
+    padding: 5px;
+  }
+}

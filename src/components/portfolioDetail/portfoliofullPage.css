@@ -1,0 +1,341 @@
+tbody,
+td,
+tfoot,
+th,
+thead,
+tr {
+
+  border: 1px solid #fff !important;
+}
+.ck-table-resized{
+  max-width: 100%;
+  margin: 10px auto;
+}
+.ck-table-resized tr td{
+ 
+  color:#fff !important;
+}
+
+
+
+.custom-arrow {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  color: rgb(50, 77, 160);
+  transition: color 0.3s ease-in-out;
+  font-size: 24px !important;
+
+}
+.star-pattern ul li {
+  color:#fff !important;
+}
+.star-pattern p img ,.star-pattern h2 img{
+  border-radius: 10px !important;
+  max-width: 100%;
+  height: auto !important;
+  max-height: 100%;
+  margin: 0 auto;
+}
+
+.manageHeading {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+@media screen and (max-width: 768px) {
+  .manageHeading {
+    
+    font-size: 25px;
+    margin-bottom: 15px; 
+  }
+}
+
+.markdown p img {
+  width: 100% !important;
+  border-radius: 10px !important;
+  height: auto;
+  max-height: 50vh !important;
+  object-fit: cover;
+}
+
+.markdown h2 img {
+  max-width: 100%;
+  height: auto;
+  max-height: 50vh;
+  border-radius: 10px !important;
+}
+.image img {
+  border-radius: 10px !important;
+}
+
+.slick-slide img {
+  border-radius: 10px !important;
+}
+
+.custom-prev-arrow {
+  color:#d76a12;
+  left: -15px;
+  z-index: 500 !important;
+}
+
+.custom-next-arrow {
+  color:#d76a12;
+  right: -15px;
+}
+
+.custom-arrow:hover {
+  color: #bf5500;
+}
+
+/* Optional: Adjust the position of the dots */
+.slick-dots {
+  bottom: 20px;
+  color: black !important;
+}
+
+.slick-dots li button:before {
+  color: #d76a12;
+  font-size: 16px !important;
+}
+
+.slick-dots li.slick-active button:before {
+  color: #d76a12;
+}
+.post {
+  aspect-ratio: 1.5/1 !important;
+}
+.markdown ul li {
+  /* list-style: disc !important; */
+  margin-left: 10px !important;
+}
+.markdown ul {
+  font-size: 16px;
+  margin-left: 10px !important;
+}
+
+.markdown img {
+  width: 100%;
+  height: auto;
+  max-height: 50vh;
+
+  border-radius: 10px;
+}
+
+.markdown .image img {
+  border-radius: 10px !important;
+  width: 100%;
+  height: auto;
+  max-height: 50vh;
+}
+
+.markdown p .image_resized {
+  width: 100%;
+  height: auto;
+  max-height: 50vh;
+  border-radius: 10px !important;
+}
+.custom-list p img {
+  border-radius: 10px !important;
+  width: 100%;
+  height: auto;
+  max-height: 50vh;
+}
+.custom-list .markdown p img {
+  border-radius: 10px !important;
+  width: 100% !important;
+  height: auto;
+  max-height: 50vh;
+}
+.markdown figure {
+  width: 100% !important;
+}
+
+.entry-details .star-pattern ul {
+  padding-left: 20px !important;
+  font-size: 16px !important;
+}
+
+.wpo-blog-content .entry-details .star-pattern p:has(img) {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.wpo-blog-content .entry-details .star-pattern p:has(img) img {
+  vertical-align: middle !important;
+  border-radius: 10px;
+}
+.category-title-on-detail-page {
+  color:#fff ;
+  min-height: 30px !important;
+  max-height: 40px !important;
+  display: flex;
+  background-color: #1e2222 !important;
+  border-radius: 50px !important;
+  padding: 0px 10px !important;
+  align-items: center;
+  justify-content: center !important;
+  border: 2px solid #3d3d3d;
+}
+.title-on-detail-page {
+  color: #fff;
+  font-weight: 400;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 36px ;
+  min-height: 30px !important;
+  max-height: fit-content !important;
+
+}
+.wpo-blog-pg-section .post p{
+  color:#fff
+}
+.title-and-category-title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center !important;
+  font-size: 16px;
+  margin: 0 20px;
+  margin-bottom: 20px !important;
+}
+.back-btn {
+  color: white !important;
+  margin-bottom: 10px !important;
+  margin: 0 20px;
+}
+@media (max-width: 600px) {
+  .title-on-detail-page{
+    font-size: 24px !important;
+  }
+  .title-and-category-title {
+    margin: 0px;
+    margin-bottom: 10px !important;
+    line-height: 1;
+  }
+  .back-btn {
+    margin-bottom: 10px !important;
+    margin: 0px;
+  }
+  .category-title-on-detail-page {
+    padding: 4px 10px !important;
+
+    display: flex;
+    border-radius: 50px !important;
+    text-align: center !important;
+    align-items: center !important;
+    justify-content: center !important;
+
+  }
+}
+.coloring{
+  background-color: #1e2222 !important;
+}
+
+@media screen and (min-width: 992px) {
+  .detail-image {
+    margin: 0 15% !important;
+    
+
+  }
+  .col-lg-10 {
+    flex: 0 0 auto;
+    width: 100% !important;
+  }
+}
+
+
+
+
+
+
+ 
+.shimmer {
+  position: relative; 
+  background: #3a3a3a !important;
+  background-image: linear-gradient(to right, #3a3a3a 0%, #3f3f3f 10%, #4a4a4a 20%, #3f3f3f 30%, #3a3a3a 50%, #3a3a3a 100%);
+  background-repeat: no-repeat;
+
+  width: 100%;
+  
+/* Animantion */
+  -webkit-animation-duration: 1s;
+  
+  /* Specifies style for element when animation isn't playing */
+  -webkit-animation-fill-mode: forwards;
+  
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-name: shimmer;
+  -webkit-animation-timing-function: ease-in-out;
+}
+
+@-webkit-keyframes shimmer {
+  0% {
+    background-position: -400px 0;
+  }
+  100% {
+    background-position: 400px 0; 
+  }
+}
+
+#container {
+  width: 100%;
+  height: 200px;
+  display: flex;
+  max-width: 500px;
+  justify-content: center;
+  align-items: center;
+}
+
+#square {
+  width: 150px;
+  height: 150px;
+}
+
+#content {
+  flex: 1;
+  height: 50vh; 
+  width: 100%;
+  padding: 5vh 1rem 0 1rem; 
+  box-sizing: border-box; 
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+
+#title {
+  width: 100%;
+  height: 30px;
+  margin-bottom: 1rem;
+}
+
+#desc {
+  min-height: 120px !important;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: flex-end;
+}
+#descOnDetailPage{
+  min-height: 90vh !important;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: flex-end;
+}
+.line{  
+  width: 100%;
+  height: 10px;
+}
+
+
